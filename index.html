@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tab</title>
+    <link rel="icon" href="image/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/24cec18428.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="cloock" class="cloock">
+        <div class="clock">
+            <div class="display">
+
+                <div class="weekdays">
+                    <span>SUN</span>
+                    <span>MON</span>
+                    <span>TUE</span>
+                    <span>WED</span>
+                    <span>THU</span>
+                    <span>FRI</span>
+                    <span>SAT</span>
+                </div>
+
+                <div class="timeDisplay">
+                    <div class="time">
+                        <span class="hours">00</span><span class="dot">:</span>
+                        <span class="minutes">00</span><span class="dot">:</span>
+                        <span class="seconds">00</span>
+                    </div>
+                    <span class="format">AM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fullpage">
+        <div class='child'>
+            <main>
+                <div class="atom">
+                    <div class="electron"></div>
+                    <div class="electron-alpha"></div>
+                    <div class="electron-omega"></div>
+                </div>
+            </main>
+        </div>
+        <div class="codeingwritten">
+            <h2>Coding is love</h2>
+            <div id="search-container" style="margin-top: 1%;margin-left: 37%;">
+                <div id="search-input-container">
+                    <img src="https://assets.codepen.io/1468070/Google+G+Icon.png" alt="" />
+                    <input type="text" placeholder="Search anything" required id="search" />
+                </div>
+
+                <button id="image-button" onclick="googleSearch();" type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button id="mic-button" type="button">
+                    <svg class="micphn" xmlns="http://www.w3.org/2000/svg" version="1.1"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" x="0" y="0"
+                        viewBox="0 0 511 511.999" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                        class="">
+                        <g>
+                            <path
+                                d="M332.465 275.082c0-8.43-6.836-15.266-15.27-15.266-8.433 0-15.27 6.836-15.27 15.266 0 74.688-60.757 135.445-135.445 135.445-74.683 0-135.44-60.757-135.44-135.445 0-8.43-6.837-15.266-15.27-15.266-8.434 0-15.27 6.836-15.27 15.266 0 86.379 66.32 157.54 150.71 165.273v41.106H94.548c-8.434 0-15.27 6.836-15.27 15.27 0 8.433 6.836 15.269 15.27 15.269h143.871c8.43 0 15.266-6.836 15.266-15.27 0-8.433-6.836-15.27-15.266-15.27H181.75v-41.105c84.395-7.73 150.715-78.894 150.715-165.273zm0 0"
+                                fill="#ffffff" opacity="1" data-original="#000000" class=""></path>
+                            <path
+                                d="M166.48 372.852c53.91 0 97.77-43.86 97.77-97.77V97.766C264.25 43.859 220.39 0 166.48 0c-53.906 0-97.765 43.86-97.765 97.766v177.316c0 53.91 43.86 97.77 97.765 97.77zM99.25 97.766c0-37.07 30.16-67.227 67.23-67.227 37.07 0 67.23 30.156 67.23 67.227v177.316c0 37.07-30.16 67.23-67.23 67.23-37.07 0-67.23-30.16-67.23-67.23zm0 0"
+                                fill="#ffffff" opacity="1" data-original="#000000" class=""></path>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+    </section>
+    <section id="icons">
+        <div class="iconwrapper">
+            <div class="youtube">
+                <a href="https://www.youtube.com/" title="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span>YouTube</span>
+                </a>
+            </div>
+            <div class="gmail">
+                <a href="https://mail.google.com/mail/u/0/#inbox" title="Inbox">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Inbox</span>
+                </a>
+            </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/home.php" title="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <span> Facebook</span>
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/feed/" title="Linked In">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span> Linked In</span>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://fontawesome.com/search" title="Font Awesome">
+                    <i class="fa-solid fa-font-awesome"></i>
+                    <span> Font </span>
+                    <span class="span2">Awesome</span>
+                </a>
+            </div>
+            <div class="font">
+                <a href="https://fonts.google.com/" title="Browse Fonts">
+
+                    <i class="fa-solid fa-font"></i>
+                    <span> Browse </span>
+                    <span class="span2forA">Fonts</span>
+                </a>
+            </div>
+            <div class="github">
+                <a href="https://github.com/" title="Github Profile">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                    <span class="span2forgithub">Profile</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="myname">
+            <i class="fa fa-light fa-copyright"></i><span> Copyright 2023. All rights reserved. Designed by -- </span>
+            <a id="myownname" title="Don't CLICK !" href="https://wobbiewobbit.com/jukebox/images/cheeky-monkey_300.jpg"
+                onclick="amarnamer();">Farhan Taskin Ismail</a>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function googleSearch() {
+            var text = document.getElementById("search").value;
+            var cleanQuery = text.replace(" ", "+", text);
+            var url = 'http://www.google.com/search?q=' + cleanQuery;
+
+            window.location.href = url;
+        }
+        function amarnamer() {
+            return alert("Amar nam dekhlei click korte issa hoi tai na?                                       Valo hoiye jau MASUD  !  👻 ");
+
+        };
+        const searchInput = document.getElementById("search");
+
+        // Add an event listener to detect when the "Enter" key is pressed
+        searchInput.addEventListener("keypress", function (event) {
+            if (event.key === "Enter") {
+                googleSearch();  // Trigger the search function
+            }
+        });
+
+        // Define the googleSearch function (replace with your own search logic)
+        function googleSearch() {
+            const query = searchInput.value; // Get the search query
+            if (query) {
+                // Here you can either redirect to Google search or perform your own search
+                // For example, redirect to Google search:
+                window.location.href = `https://www.google.com/search?q=${query}`;
+            }
+        };
+        const micButton = document.getElementById("mic-button");
+
+        // Add an event listener to the button
+        micButton.addEventListener("click", function () {
+            alert("Microphone button is under construction. Check back soon.");
+        });
+    </script>
+    <script src='https://codepen.io/Hyperplexed/pen/xxYJYjM/54407644e24173ad6019b766443bf2a6.js'></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

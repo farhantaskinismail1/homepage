@@ -282,7 +282,7 @@ input {
 }
 .youtube {
   width: 100px;
-  margin: 35px 0px 0px 513px;
+  /* margin: 35px 0px 0px 513px; */
   padding: 5px 0px 5px 0px;
   line-height: 25px;
   transition: 0.3s;
@@ -314,7 +314,7 @@ input {
 }
 .gmail {
   width: 100px;
-  margin: -65px 0px 0px 615px;
+  /* margin: -65px 0px 0px 615px; */
   padding: 5px 0px 5px 0px;
   line-height: 25px;
   transition: 0.3s;
@@ -347,7 +347,7 @@ input {
 }
 .facebook {
   width: 100px;
-  margin: -66px 0px 0px 719px;
+  /* margin: -66px 0px 0px 719px; */
   padding: 5px 0px 5px 0px;
   line-height: 25px;
   transition: 0.3s;
@@ -379,7 +379,7 @@ input {
 }
 .linkedin {
   width: 100px;
-  margin: -67px 0px 0px 827px;
+  /* margin: -67px 0px 0px 827px; */
   padding: 5px 0px 5px 0px;
   line-height: 25px;
   transition: 0.3s;
@@ -411,7 +411,7 @@ input {
 }
 .icon {
   width: 100px;
-  margin: 30px 0px 0px 570px;
+  /* margin: 30px 0px 0px 570px; */
   padding: 5px 0px 5px 0px;
   line-height: 16px;
   transition: 0.3s;
@@ -444,7 +444,7 @@ input {
 }
 .font {
   width: 100px;
-  margin: -79px 0px 0px 671px;
+  /* margin: -79px 0px 0px 671px; */
   padding: 5px 0px 5px 0px;
   line-height: 17px;
   transition: 0.3s;
@@ -477,7 +477,7 @@ input {
 }
 .github {
   width: 100px;
-  margin: -80px 0px 0px 772px;
+  /* margin: -80px 0px 0px 772px; */
   padding: 5px 0px 5px 0px;
   line-height: 16px;
   transition: 0.3s;
@@ -616,4 +616,17 @@ a#myownname {
 svg.micphn {
   margin-left: 6px;
   margin-top: 3px;
+}
+.iconwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 415px;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 5px;
+}
+
+section#icons {
+    margin-top: 40px;
 }

@@ -28,7 +28,8 @@ body {
   width: var(--atom-size);
   height: var(--atom-size);
   animation: 8s atom infinite cubic-bezier(1, 0.25, 0, 0.75);
-  margin: 0px 0px 0px 625px;
+  /* margin: 0px 0px 0px 625px; */
+  margin: auto;
 }
 @keyframes atom {
   0% {
@@ -213,9 +214,9 @@ main {
   color: #6bc1ff;
   font-family: 'Pacifico', cursive;
   font-size: 35px;
-  margin: 0px 0px -1px 620px;
+  /* margin: 0px 0px -1px 620px; */
   text-transform: uppercase;
-  margin-left: 545px;
+  /* margin-left: 545px; */
   word-spacing: 10px;
   cursor: default;
 }
@@ -629,4 +630,15 @@ svg.micphn {
 
 section#icons {
     margin-top: 40px;
+}
+.codeingwritten {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+div#search-container {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
 }
